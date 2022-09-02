@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply px-5 uppercase text-sm font-semibold  py-3 shadow-lg cursor-pointer 
+        hover:translate-y-0.5 transform transition text-white tracking-wider
+    }
+    .allImg{
+        @apply hidden lg:block inset-0 w-full h-full object-cover object-center
+    }
+    .allImgCard{
+        @apply inset-0 w-full h-full object-cover object-center
+    }
+    .btn-pry {
+        @apply
+         hover:bg-indigo-400
+        active:bg-indigo-600
+        inline-block rounded-lg bg-indigo-500;
+        }
+    .btn-sec{
+        @apply
+         hover:bg-gray-400
+        active:bg-gray-600
+        inline-block rounded-lg bg-gray-500;
+    }    
+}
