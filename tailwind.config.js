@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        clone:"#FF385C"
+        clone:"#FF385C",
+        iconColor:"#717171"
       },
       width:{
         'fill':"fill content"
